@@ -1,5 +1,5 @@
 module Babot
-  class Test < Twitter
+  class Test < TwitterBot
     def when
       "1am"
     end
