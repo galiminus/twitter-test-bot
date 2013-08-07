@@ -1,6 +1,6 @@
 module Babot
   class Test < Twitter
-    def cron
+    def when
       "1am"
     end
 
