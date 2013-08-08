@@ -1,11 +1,11 @@
 module Babot
   class Test < TwitterBot
     def when
-      "0 1 * * *"
+      "0 0 * * *"
     end
 
     def call
-      "It's 1am"
+      "It's midnight"
     end
   end
 end
