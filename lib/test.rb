@@ -1,5 +1,5 @@
 module Babot
-  class Test < TwitterBot
+  class Test < Bot
     def when
       "0 0 * * *"
     end
